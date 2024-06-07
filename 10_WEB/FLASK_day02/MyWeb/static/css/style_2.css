@@ -1,0 +1,9 @@
+/*배경색 스타일 지정*/
+body{background-color: rgb(201, 215, 144);}
+
+h2{margin-top: 100px;
+background-color: rgb(106, 121, 77);}
+
+img{margin-top: 100px;}
+
+.submit_button{margin-top:10px;}
