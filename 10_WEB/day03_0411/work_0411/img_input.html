@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INPUT IMAGE</title>
+</head>
+<body>
+    <h2>강아지 이미지 선택</h2><hr color = "blue" size = "2">
+    <form method = "post" action ="/cgi-bin/dog_img.py" enctype="multipart/form-data">
+        <input type = "file" name="img_file" accept ="img/png, image/jpeg"><br>
+        <input type = "text" name="message" placeholder = "전달메시지"><br>
+        <input type = "submit"> <!--파일 제출-->
+    <h4>비숑일까요? 기장떡일까요?</h4>
+    </form>
+</body>
+</html>

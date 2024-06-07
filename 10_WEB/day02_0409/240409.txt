@@ -1,0 +1,37 @@
+test.html
+test.txt
+test.php
+test.py
+test.sql
+
+## 파이썬 파일만 추출
+*.py
+
+## 파일명이 test인 파일만 추출
+
+* => 모든 요소 선택
+
+위에서 red 선택해도
+p태그에 white 지정했기 때문에 자기 태그 우선.
+
+
+의사 클래스(pseudo-class) :
+- class가 정의된 것처럼 간주
+- 콜론(:)을 사용하여 표기.
+
+table:nth-child(2n+1) {color:navy;} /*홀수 번째 행*/ 서수(序數) 사용
+
+table:nth-child(2n+0) {color:maroon;} /*짝수 번째 행*/ 서수(序數) 사용
+
+
+의사클래스 예제 밑에 테이블 그려서 만들기.
+
+css 파일 만들어서 01에 있던 style css 문장은 지우고
+
+body > table > tbody > tr:nth-child(1)
+body > table > tbody > tr:nth-child(2)
+
+197p
+
+
+8080 = port 
