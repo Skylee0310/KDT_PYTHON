@@ -1,0 +1,29 @@
+1) 모듈 로딩 및 데이터 준비
+
+모듈 로딩
+
+from sklearn.datasets import fetch_openml
+- 판다스
+- 넘파이
+- torch
+- torch.nn as nn
+- torch.nn.functional as F
+- torch.optim as optim 경사하강법 기반의 최적화 관련 모듈
+
+1. 데이터 준비
+
+- 키를 찍어보고 feature / target으로 나누기.
+- 피처와 타겟 개수 확인
+- 분류 확인
+
+2. 데이터 가공 및 전처리
+- 다중 분류로 되어 있던 것을 이진 분류로 변경.
+타겟을 0 과 0이 아닌 것으로 분류.
+0만 true, 나머지 False.
+
+3. 정규화 
+normFeature = feature/255
+(0에서 255까지 범위 확인.)
+
+# 정규화 
+
