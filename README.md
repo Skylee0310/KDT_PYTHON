@@ -1,2 +1,2 @@
 # KDT_PYTHON
-class content and what I studied by myself
+경북대학교 K-Digital Training 과정 수업 자료 및 공부 내용
